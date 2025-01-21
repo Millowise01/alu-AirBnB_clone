@@ -1,0 +1,19 @@
+/* Header styles */
+header {
+    background-color: #fefefe; /* Red */
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    background-image: url('images\hbnb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    display: flex;
+}

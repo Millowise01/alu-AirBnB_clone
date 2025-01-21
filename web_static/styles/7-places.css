@@ -1,0 +1,38 @@
+/* Places Section */
+.places {
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.places h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.places-container {
+    display: grid;
+    grid-template-columns: repeat(, 1fr); /* Creates two columns for My Home, Tiny House */
+    grid-gap: 40px; /* Gap between the columns and rows */
+    justify-content: center; /* Center the grid items */
+}
+
+.places-container .place {
+    padding: 30px;
+    border: 1px solid #FF5A5F;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.places-container .place:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.places-container .full-row {
+    grid-column: span 2; /* Span full width for A suite */
+    justify-self: center;
+}

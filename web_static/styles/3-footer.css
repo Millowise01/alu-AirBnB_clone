@@ -1,0 +1,14 @@
+/* Footer styles */
+footer {
+    background-color: #f9fdf9; /* Green */
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
